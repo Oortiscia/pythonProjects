@@ -26,7 +26,9 @@ elif delta == 0 :
   
 else :
   print(" \n\t=> when the value of delta is negative the equation has no real roots")
-img = mpimg.imread('2844f484-224b-4f72-a9ee-b419663501fa.')  # an image of different types of quadratic equations.
+  
+image_path = r"C:\Users\Afra\Projects\quadraticEquationInProgress\quadraticGraphTypes\quadraticTypesIamge"
+img = mpimg.imread(image_path)  # an image of different types of quadratic equations.
 shouldShowImage = str(input("\t\nwould you like to see what each of the three types of qudratic equation look like? (yes/no): "))
 
 if shouldShowImage == "yes":
