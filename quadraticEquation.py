@@ -18,13 +18,13 @@ print ("\n\t=> delta is : (" ,delta, ")" )
 23
 if  delta > 0 : 
   print (" \n\t\t=> the equation has two real roots :\n")
-  x_1 = ((-b) + sqrt(delta)) / 2*a
-  x_2 = ((-b) - sqrt(delta)) / 2*a
+  x_1 = ((-b) + sqrt(delta)) / (2*a)
+  x_2 = ((-b) - sqrt(delta)) / (2*a)
   print ("x1 is: ",x_1,"and x2 is: ",x_2)
   
 elif delta == 0 :
   print (" \n=> there is one real root for the entered values of a ,b ,c. this implies that the curve conjoints with the X axis in one point")
-  doubleRoot = -b / 2*a
+  doubleRoot = -b / (2*a)
   print (doubleRoot)
   
 else :
