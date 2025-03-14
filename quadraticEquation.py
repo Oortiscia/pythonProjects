@@ -36,7 +36,7 @@ if shouldShowImage == "yes" :
   imageData = base64.b64decode(base64ImageData) # decodes the base64 data type into binary.
   binaryFile = Image.open(BytesIO(imageData)) # reads the binary code and creates an in-memory file.
   binaryFile.show() # shows the file, we can also combine 37th and 38th lines by removing the 'binaryFile' variable and 
-                    # placing the rest of line 37 before the show() finction.
+                    # placing the rest of line 37 before the show() function.
 else :
   print("\n=> okay then, hope this program has been a bit of help to you")
   
